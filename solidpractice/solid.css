@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
+    background-color: rgb(43, 27, 24);
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.bar {
+    color: rgb(255, 160, 122);
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+    padding: 14px 16px;
+    display: block;
+}
+
+.bar:hover {
+    font-size: 21px;
+    background-color: rgba(94, 16, 16, 0.452);
+}
+
+@media screen and (max-width: 600px) {
+    .bar {float: none;}
+}
+
+#mainheader {
+    color: rgba(255, 255, 255, 0.664);
+    background-color: rgba(128, 128, 128, 0.342);
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 48px;
+}
+
+.sidebar {
+    color: white;
+    margin: 10px;
+    text-align: left;
+    line-height: 22px;
+    border: 5px;
+    padding: 10px;
+}
+
+
+.divine {
+    width: 350px;
+    height: 350px;
+    float: right;
+    margin-right: 15px;
+    padding: 5px;
+    opacity: 0.8;
+}
+
+.divine:hover {
+    opacity: 1.0;
+}
+
+.popout {
+    display: none;
+    background-color: rgb(112, 0, 116);
+    padding: 10px;
+    width: 350px;
+    opacity: 0.9;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.267);
+}
+
+.popup:hover .popout{
+    display: block;
+}
+
+.popup {
+    color: mistyrose;
+    font-weight: bold;
+    font-size: 17px;
+    position: absolute;
+    margin-left: 1510px;
+    margin-top: 120px;
+
+}
+
+.pseudo::first-line {
+    color: lemonchiffon;
+}
+
+.pseudo::first-letter {
+    font-size: 25px;
+}
+
