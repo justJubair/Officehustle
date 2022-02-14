@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#mainHeader {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    width: 100%;
+}
+
+.navbar {
+    background-color: gray;
+    padding: 12px;
+    text-align: left;
+    width: 100%;
+}
+
+.list {
+    display: inline;
+}
+
+.bar {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 12px 16px;
+    width: 100%;
+}
+
+.bar:hover{
+    background-color: rgb(97, 95, 95);
+    font-size: 20px;
+}
