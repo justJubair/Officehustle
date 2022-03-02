@@ -34,3 +34,34 @@
     background-color: rgb(97, 95, 95);
     font-size: 20px;
 }
+
+.dropdown-content {
+    color: white;
+    background-color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px 10px 15px 10px;
+    font-weight: bold;
+    width: 160px;
+    box-shadow: 0px 10px 12px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    font-size: 20px;
+    display: none;
+    margin-left: 10px;
+}
+
+.global {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: mediumseagreen;
+    color: white;
+    font-size: 23px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+.dropdown-button:hover .dropdown-content {
+    display: block;
+}
+
