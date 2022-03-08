@@ -39,15 +39,15 @@ body {
     padding: 16px 18px;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .bar:hover {
     background-color: rgb(49, 9, 9);
-    font-size: 21px;
+    font-size: 20px;
 }
 
-@media screen and (max-width: 827px) {
+@media screen and (max-width: 829px) {
     .list {float: none;}
 }
 
@@ -72,23 +72,9 @@ body {
 }
 
 .david {
-    width: 350px;
-    height: 380px;
+    max-width: 380px;
+    height: auto;
     float: right;
+    width: 100%;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-    float: right;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
