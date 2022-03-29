@@ -39,14 +39,14 @@ body {
     padding: 16px 18px;
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 19px;
     transition: all 0.5s;
 }
 
 
 .bar:hover {
     background-color: rgb(49, 9, 9);
-    font-size: 21px;
+    font-size: 20px;
 }
 
 
