@@ -43,10 +43,12 @@ body {
     transition: all 0.5s;
 }
 
+
 .bar:hover {
     background-color: rgb(49, 9, 9);
     font-size: 21px;
 }
+
 
 @media screen and (max-width: 836px) {
     .list {float: none;}
@@ -99,18 +101,32 @@ body {
 
 .labelform {
     display: block;
-    margin: 8px;
+    margin: 12px;
 }
 
 .inputform {
-    display: block;
-    padding: 5px;
+    display: inline-block;
+    padding: 8px 5px;
+    margin-top: 8px;
     width: 100%;
     border-radius: 15px;
     font-size: 16px;
     background-color: rgb(211, 211, 211);
     border: 3px solid rgb(148, 148, 148);
-    max-width: 1850px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    margin: 5px;
+}
+
+.inputform:focus {
+    background-color: white;
+    border: 5px solid rgb(102, 24, 24);
 }
 
 .age {
