@@ -35,14 +35,14 @@
         <p>Give us your basic information, so that we can exploit you with your own information.</p>
         </div>
 
-    <form class="Basicform" action="/action_page.php">
+<div class="Basicform">   
+    <form action="/action_page.php">
         <label class="labelform" for="fname">Your Name</label>
         <input class="inputform" type="text" id="fname" name="fname" placeholder="Homo sapiens">
 
 
         <div class="agegroup">
-            <P>Approximately how old are you?</P>
-            <br>
+        <label class="labeltwo">Approximately how old are you</label>
         <input class="age" type="radio" id="Above25" name="my_age" value="above25">
         <label class="lage" for="above25">Above 25</label>
         </div>
@@ -56,12 +56,19 @@
         <input class="age" type="radio" id="Exactly25" name="my_age" value="exactly25">
         <label class="lage" for="exactly25">Exactly 25</label>
         </div>
+        
+        <label class="labelform" for="district">Where do you live</label>
+        <select id="district" name="district">
+            <option class="opt" value="Dhk">Dhaka</option>
+            <option class="opt" value="out">Outside of Dhaka</option>
+            <option class="opt" value="Noa">Noakhali</option>
+        </select>
 
         <label class="labelform" for="email">Your Email address</label>
         <input class="inputform" type="email" id="email" name="email" placeholder="shakibkhan69@gamail.com">
 
         <label class="labelform" for="message">Things you wanted to say</label>
-        <textarea class="inputform" name="message"></textarea>
+        <textarea class="inputform" name="message" placeholder="Your dad hates you.."></textarea>
 
         <div class="dropbtn">
         <input class="subform" type="submit" value="Submit">
@@ -72,7 +79,7 @@
         </div>
         </div>
     </form>
-
-
+    </div>
+    
 </body>
 </html>
