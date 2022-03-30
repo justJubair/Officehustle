@@ -85,45 +85,57 @@ body {
 .forminfo {
     color: lightpink;
     border: 11px;
-    margin: 11px;
     padding: 15px;
     width: auto;
     font-weight: bold;
 }
 
 .Basicform {
-    color: white;
-    border: 2px solid lightcoral;
-    margin: 11px;
-    padding: 15px;
-    border-radius: 15px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .labelform {
     display: block;
-    margin: 12px;
+
     font-weight: bold;
     color:blanchedalmond;
 }
 
 .labeltwo {
     color: blanchedalmond;
-    margin: 12px 0px;
     font-weight: bold;
     display: block;
 }
 
 .inputform {
     display: inline-block;
-    padding: 8px 8px;
-    margin: 5px 0px;
+    padding: 8px 5px;
+    margin: 8px 0px;
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: 16px;
     background-color: rgb(211, 211, 211);
     border: 3px solid rgb(148, 148, 148);
     box-sizing: border-box;
     outline: none;
+}
+
+#district {
+    display: inline-block;
+    padding: 8px 8px;
+    margin: 5px 0px;
+    border: 3px solid rgb(148, 148, 148);
+    border-radius: 10px;
+    font-size: 16px;
+    background-color: rgb(211, 211, 211);
+    box-sizing: border-box;
+    outline: none;
+    width: 100%;
+}
+
+.opt {
+    background-color: rgb(211, 211, 211);
 }
 
 textarea {
@@ -149,10 +161,11 @@ textarea:focus {
 
 .lage {
     padding: 11px;
+    color: white;
 }
 
 .agegroup {
-    margin: 11px;
+    margin: 12px 0px;
 }
 
 .subform {
