@@ -29,6 +29,28 @@
 .sidebar {
     margin-left: 25%;
     padding: 1px 16px;
-    height: 1000px;
 }
 
+.dropdown {
+    margin-left: 310px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    position: absolute;
+    display: none;
+    min-width: 250px;
+    background-color: rgb(78, 3, 78);
+
+    z-index: 1;
+}
+
+.desc {
+    text-align: center;
+    font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
