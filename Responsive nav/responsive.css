@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -112,4 +113,9 @@
 
 .dropdownimage {
     margin: 10px;
+}
+
+.container {
+    margin-top: 300px;
+    box-sizing: border-box;
 }
