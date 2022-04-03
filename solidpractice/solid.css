@@ -117,7 +117,7 @@ body {
 }
 
 .labelform {
-    display: block;
+    display: inline-block;
     font-weight: bold;
     color:blanchedalmond;
     margin: 8px 0px;
@@ -156,8 +156,13 @@ body {
     width: 100%;
 }
 
+#district:focus {
+    background-color: white;
+    border: 5px solid rgb(102, 24, 24);
+}
+
 .opt {
-    background-color: rgb(211, 211, 211);
+    background-color: white;
 }
 
 textarea {
@@ -224,6 +229,7 @@ textarea:focus {
     text-decoration: none;
     border-radius: 6px;
     font-weight: bold;
+    transition: all 0.3s;
 }
 
 .droplink:hover {
