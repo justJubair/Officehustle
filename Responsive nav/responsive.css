@@ -189,7 +189,27 @@
     padding: 12px;
 }
 
-h2::before {
+.numbering::before {
     counter-increment: section;
     content: "Section " counter(section) ": ";
+}
+
+.listoftopic {
+    margin: 12px;
+    padding: 12px;
+    counter-reset: section;
+}
+
+.maintopic {
+    counter-reset: subsection;
+}
+
+.maintopic::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+}
+
+.minortopic::before {
+    counter-increment: subsection;
+    content: counter(section)":"counter(subsection) " ";
 }
