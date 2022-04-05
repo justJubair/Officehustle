@@ -182,3 +182,14 @@
         width: 100%;  
     }
 }
+
+.counters {
+    counter-reset: section;
+    margin: 12px;
+    padding: 12px;
+}
+
+h2::before {
+    counter-increment: section;
+    content: "Section " counter(section) ": ";
+}
