@@ -213,3 +213,35 @@
     counter-increment: subsection;
     content: counter(section)":"counter(subsection) " ";
 }
+
+.row {
+    box-sizing: border-box;
+    margin: 12px;
+}
+
+.column::first-letter {
+    font-size: 25px;
+    color: #585e57;
+}
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 31.33%;
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout, makes the three columns stack on each other instead of next to each other */
+
+@media screen and (max-width: 1540px) {
+    .column {
+        width: 100%;
+    }
+}
